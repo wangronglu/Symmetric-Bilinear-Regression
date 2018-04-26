@@ -1,6 +1,6 @@
 function [alpha_final, B_final, Lambda_final, F_final] = SymBilinear(W,y,K,gamma,fullit,maxit,tol,B0,Replicates)
 
-% SymBilinear5 fits the symmetric rank-K Kruskal tensor regression with
+% SymBilinear fits the symmetric rank-K Kruskal tensor regression with
 % L1 constraint
 % Loss function = RSS/(2n) + L1 penalty
 % L1 penalty = gamma * sum of abs value of coefficients
